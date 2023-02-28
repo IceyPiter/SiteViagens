@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+/*  */
+body {
+    background-color: #443C68;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style: none;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    color: #BAD7E9;
+    font-size: 6rem;
+}
+
+p {
+    color: #443C68;
+    font-size: 1rem;
+}
+
+h2{
+    color: #443C68;
+    font-size: 50px;
+}
+
+button{
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    background: #4E6E81;
+    color: white;
+    font-family: 'Montserrat', 'san-serif';
+}
+
+header{
+    background: no-repeat center/cover url('assets/MonteFuji.jpg');
+    height: calc(100vh - 150px);
+}
+
+.flex-container {
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+  }
+
+/* header nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 90px;
+} */
