@@ -23,23 +23,16 @@ a {
 h1 {
     color: #BAD7E9;
     font-size: 6rem;
-    position: relative;
-    left: 38rem;
-    top: 13rem;
 }
 
 p {
     color: #443C68;
     font-size: 1rem;
-    position: sticky;
-    bottom: 20px;
 }
 
 h2{
     color: #443C68;
     font-size: 50px;
-    position: static;
-    right: 10rem;
 }
 
 button{
@@ -55,6 +48,12 @@ header{
     background: no-repeat center/cover url('assets/MonteFuji.jpg');
     height: calc(100vh - 150px);
 }
+
+.flex-container {
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+  }
 
 /* header nav{
     display: flex;
