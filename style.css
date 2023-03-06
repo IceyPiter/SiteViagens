@@ -24,13 +24,13 @@ button{
     border-radius: 8px;
     font-weight: bold;
     border: 0;
-    background: #4E6E81;
+    background: #3F497F;
     color: white;
     font-family: 'Montserrat', 'san-serif';
 }
 
 header{
-    background: no-repeat center/cover url('assets/MonteFuji.jpg');
+    background: no-repeat center/cover url('assets/MonteFuji2Op.jpg');
     height: calc(100vh - 150px);
 }
 
@@ -50,7 +50,7 @@ header nav ul{
 
 header nav ul li{
     margin: 0 15px;
-    color: #f5517a;
+    color: #3F497F;
 }
 
 .header-content {
@@ -59,12 +59,57 @@ header nav ul li{
     text-align: center;
 }
 
+.header-content p{
+    color: #2C3333;
+    font-weight: bold;
+}
 .header-content h1 {
-    color: #f5517a;
+    color: #3F497F;
     margin-bottom: 10px;
     font-size: 4rem;
 }
 
 header nav h2 {
-    color: #f5517a;
+    color: #3F497F;
+}
+
+
+.pacotes {
+    background: #50577A;
+    padding: 15px;
+}
+
+.pacotes .pacotes-cards {
+    display: flex;
+    margin: auto;
+    max-width: 950px;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.pacotes .card-image {
+    width: 250px;
+    height: 200px;
+    border-radius: 24px 24px 24px 24px;
+    object-fit: cover;
+}
+
+.pacotes .pacotes-title{
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.pacotes .card {
+    width: 250px;
+    height: 200px;
+    background: #50577A;
+    border-radius: 24px 0;
+    margin: 25px;
+    position: relative;
+}
+
+.pacotes .card-content h1{
+    margin: 11px;
 }
