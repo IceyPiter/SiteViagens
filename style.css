@@ -50,7 +50,7 @@ header nav ul{
 
 header nav ul li{
     margin: 0 15px;
-    color: #3F497F;
+    color: #3A1078;
 }
 
 .header-content {
@@ -60,17 +60,17 @@ header nav ul li{
 }
 
 .header-content p{
-    color: #2C3333;
+    color: #3A1078;
     font-weight: bold;
 }
 .header-content h1 {
-    color: #3F497F;
+    color: #3A1078;
     margin-bottom: 10px;
     font-size: 4rem;
 }
 
 header nav h2 {
-    color: #3F497F;
+    color: #3A1078;
 }
 
 
@@ -99,6 +99,7 @@ header nav h2 {
     width: 100%;
     text-align: center;
     margin: 25px 0;
+    color: White;
 }
 
 .pacotes .card {
