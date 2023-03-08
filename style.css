@@ -107,10 +107,35 @@ header nav h2 {
     height: 200px;
     background: #50577A;
     border-radius: 24px 0;
-    margin: 25px;
+    margin: 10px;
     position: relative;
 }
 
 .pacotes .card-content h1{
     margin: 11px;
+}
+
+.pacotes .card-content {
+    padding: 0 25px;
+}
+.pacotes .card-content ul{
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+
+}
+
+.pacotes .card-content ul li{
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    margin: 3px;
+    font-weight: bold;
+    color: gray;
+}
+
+.pacotes .card-content li svg{
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
 }
