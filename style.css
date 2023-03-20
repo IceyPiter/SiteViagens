@@ -7,6 +7,7 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    background: #472183;
 }
 
 ul {
@@ -24,13 +25,14 @@ button{
     border-radius: 8px;
     font-weight: bold;
     border: 0;
-    background: #3F497F;
+    background: #460C68;
     color: white;
     font-family: 'Montserrat', 'san-serif';
+    text-shadow: 0px 0px 15px rgb(255,255,255);
 }
 
 header{
-    background: no-repeat center/cover url('assets/MonteFuji2Op.jpg');
+    background: no-repeat center/cover url('assets/MonteFuji3Op.jpg');
     height: calc(100vh - 150px);
 }
 
@@ -50,7 +52,7 @@ header nav ul{
 
 header nav ul li{
     margin: 0 15px;
-    color: #3A1078;
+    color: #FF8787;
 }
 
 .header-content {
@@ -60,22 +62,22 @@ header nav ul li{
 }
 
 .header-content p{
-    color: #3A1078;
+    color: #FF577F;
     font-weight: bold;
 }
 .header-content h1 {
-    color: #3A1078;
+    color: #FF577F;
     margin-bottom: 10px;
     font-size: 4rem;
 }
 
 header nav h2 {
-    color: #3A1078;
+    color: #FF8787;
 }
 
 
 .pacotes {
-    background: #50577A;
+    background: #472183;
     padding: 15px;
 }
 
@@ -104,8 +106,8 @@ header nav h2 {
 
 .pacotes .card {
     width: 250px;
-    height: 200px;
-    background: #50577A;
+    height: 500px;
+    background: #472183;
     border-radius: 24px 0;
     margin: 10px;
     position: relative;
@@ -113,6 +115,7 @@ header nav h2 {
 
 .pacotes .card-content h1{
     margin: 11px;
+    color: #FF577F;
 }
 
 .pacotes .card-content {
@@ -131,11 +134,90 @@ header nav h2 {
     font-size: 0.8rem;
     margin: 3px;
     font-weight: bold;
-    color: gray;
+    color: white;
 }
 
 .pacotes .card-content li svg{
-    width: 16px;
-    height: 16px;
+    width: 20px;
+    height: 20px;
     margin-right: 10px;
+}
+
+.pacotes .card .card-tag-top {
+    position: absolute;
+    right: 0;
+    top: 15px;
+    background: #37306B;
+    border-radius: 8px 0 0 8px;
+    padding: 5px 10px;
+}
+
+.pacotes .card .card-tag-bottom {
+    position: absolute;
+    left: 0;
+    top: 160px;
+    background: #37306B;
+    border-radius: 8px 0 0 8px;
+    padding: 5px 10px;
+}
+
+.pacotes .card .card-tag p {
+    margin: 0;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
+}
+
+.servicos {
+    padding: 15px;
+}
+
+.servicos .servicos-tittle {
+    text-align: center;
+    margin: 35px 0;
+    color: #FF577F;
+}
+
+.servicos .servicos-cards {
+    margin-top: 25px;
+    display: flex;
+    max-width: 950px;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.servicos .card {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.servicos .card svg {
+    width: 60px;
+    height: 60px;
+    margin: 50px;
+    transition: all 1s;
+}
+
+.servicos .card svg:hover {
+    transform: scale(1.5);
+}
+
+.servicos .card h3{
+    font-weight: bold;
+}
+
+.servicos .card p {
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.servicos .card .card-content {
+    height: 180px;
+    text-align: center;
 }
