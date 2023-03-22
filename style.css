@@ -232,9 +232,9 @@ header nav h2 {
 .contato .contato-card {
     width: 350px;
     height: 300px;
-    background: white;
     position: absolute;
     z-index: 99;
+    background: white;
     border-radius: 8px;
     top: calc(50% - 150px);
     left: calc(20% - 175px);
@@ -242,4 +242,17 @@ header nav h2 {
     display: center;
     flex-direction: column;
     justify-content: center;
+}
+
+;.contato .contato-card h1 {
+    padding-left: 50px;
+    text-align: left;
+}
+
+.contato .contato-card li {
+    font-size: .8rem;
+    font-weight: bold;
+    color: gray;
+    display: flex;
+    text-align: center;
 }
