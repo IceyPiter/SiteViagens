@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+/* Comentário */
+body{
+    /*
+    background: no-repeat center/cover url('assets/image.jpg');
+    height: calc(100vh - 10px);
+*/
+
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+ul{
+    list-style: none;
+    font-weight: bold;
+    color: black;
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/*
+h1{
+    color: black;
+    font-size: 70px;
+}
+*/
+
+button{
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    padding: 15px 12px;
+    font-size: 20px;
+    font-weight: bold;
+    background: no-repeat center/cover url(assets/btBG.webp);
+    font-family: 'Montserrat', sans-serif;
+    /*background: transparent;*/
+    cursor: pointer;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+button:hover{
+    background: no-repeat center/cover url(https://i0.wp.com/i.kinja-img.com/gawker-media/image/upload/s--Ur6qGvVD--/1482701490237307311.gif);
+    background-color: black;
+    color: white;
+    background-position: center;
+}
+
+button:active{
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5), inset 3px 3px 3px rgba(0, 0, 0, 0.5);
+    transform:  translate(0px, 3px);
+}
+
+header{
+    background: no-repeat center/cover url('assets/image2.webp');
+    height: calc(100vh - 10px);
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 90px;
+}
+
+header nav p{
+    font-weight: bold;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    margin: 0 15px;
+}
+
+.header-content{
+    max-width: 400px;
+    margin: 150px auto;
+    text-align: center;
+}
+
+.header-content h1{
+    margin-bottom:  10px;
+    font-size: 4rem;
+    text-shadow: 0px 0px 15px rgb(255, 255, 255);
+}
+
+.pacotes {
+    background: #70ef96;
+    padding: 15px;
+}
+
+.pacotes .pacotes-cards {
+    display: flex;
+    margin: auto;
+    max-width: 950px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pacotes .pacotes-title {
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+    color: white;
+    text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5)
+}
+
+.pacotes .card{
+    width: 250px;
+    height: 350px;
+    background: white;
+    border-radius: 24px 0;
+    margin: 25px;
+    position: relative;
+}
+
+.pacotes .card-image{
+    width:  250px;
+    height: 200px;
+    border-radius: 24px 0 0 0;
+    object-fit: cover;
+    transition: all 1s;
+}
+
+.pacotes .card-image:hover{
+    transform: scale(1.1);
+}
+
+.pacotes .card-content {
+    padding: 0 15px;
+}
+
+.pacotes .card-content ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.pacotes .card-content ul li{
+    font-size: 0.6rem;
+    display: flex;
+    align-items: center;
+    margin: 3px;
+    color: grey;
+    font-weight: bold;
+}
+
+.pacotes .card-content li svg{
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.pacotes .card-content h1{
+    font-size: 1rem;
+}
+
+.pacotes .card .card-tag-top{
+    position: absolute;
+    right: 0;
+    top: 15px;
+    background: #f19b39;
+    border-radius: 8px 0 0 8px;
+    padding: 5px 10px;
+}
+
+.pacotes .card .card-tag-bottom{
+    position: absolute;
+    left: 0;
+    top: 160px;
+    background: #1d61dd;
+    border-radius: 0 8px 8px 0;
+    padding: 5px 10px;
+}
+
+.pacotes .card .card-tag p{
+    margin: 0;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
+}
+
+.servicos {
+    padding: 15px;
+}
+
+.servicos .servicos-title{
+    text-align: center;
+    margin: 35px 0;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4)
+}
+
+.servicos .servicos-cards{
+    margin-top: 25px;
+    display: flex;
+    max-width: 950px;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.servicos .card{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.servicos .card svg{
+    width: 60px;
+    height: 60px;
+    margin: 50px;
+    transition: all 1s;
+}
+
+.servicos .card svg:hover{
+    stroke: #1d61dd;
+    transform: scale(1.1);
+}
+
+.servicos .card h3{
+    font-weight: bold;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.servicos .card p{
+    color: grey;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.contato {
+    padding: 60px;
+    background: #e1e8f7;
+    position: relative;
+    text-align: right;
+}
+
+.contato .contato-card{
+    width: 350px;
+    height: 300px;
+    background: white;
+    position: absolute;
+    z-index: 99;
+    border-radius: 8px;
+    top: calc(50% - 150px);
+    left: calc(20% - 175px);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contato .contato-card h1{
+    padding-left: 50px;
+    text-align: left;
+}
+
+.contato .contato-card li{
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: grey;
+    display: flex;
+    align-items: center;
+    margin-top: 0.8rem;
+}
