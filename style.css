@@ -119,7 +119,7 @@ header nav h2 {
 }
 
 .pacotes .card-content {
-    padding: 0 25px;
+    padding: 10px 25px;
 }
 .pacotes .card-content ul{
     display: flex;
@@ -254,5 +254,15 @@ header nav h2 {
     font-weight: bold;
     color: gray;
     display: flex;
-    text-align: center;
+    align-items: center;
+}
+
+.contato .contato-card li svg {
+    width: 20px;
+    margin: 2px;
+}
+#map {
+    height: 400px;
+
+    width: 100%;
 }
